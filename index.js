@@ -7,6 +7,7 @@ const path = require("path")
 
 const base_url = "https://node59037-wisanu-come.proen.app.ruk-com.cloud:11720"
 //const base_url = "http://localhost:3000"
+
 app.set("views", path.join(__dirname, "/public/views"))
 app.set('view engine', 'ejs')
 app.use(bodyParser.json())
